@@ -15,7 +15,7 @@ public class ProjetTP3 {
 
     public static void main(String[] args) throws IOException {
         //exercice1
-        FileHandler fileHandler = new FileHandler("file.log");
+        FileHandler fileHandler = new FileHandler("file.log"); //il faut ecrire l'adresse du fichier
         
         int lineIndexToReverse=1;
         fileHandler.reverseString(lineIndexToReverse);
